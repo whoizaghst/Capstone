@@ -58,16 +58,20 @@ li{
 /* TOP BANNER STUFF */
 .topbanner{
   display: flex;
+  justify-content: center;
   background-color: #DCD3D3;
   border: 2px solid blue;
+  margin: 0;
 }
-.topimg{
+.topbanner img{
   border: 2px solid red;
-  margin: 2rem 1.5rem;
+  margin: 1.5rem 2rem;
 }
 .bannertxt{
   display: flex;
   border: 2px solid cyan;
   flex-direction: column;
   justify-content: center;
+  margin: 0;
+
 }

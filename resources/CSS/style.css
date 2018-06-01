@@ -44,7 +44,6 @@ html{
 ul {
     list-style-type: none;
     margin: 0;
-
     font-weight: 400;
 }
 li{
@@ -56,22 +55,60 @@ li{
 }
 
 /* TOP BANNER STUFF */
-.topbanner{
-  display: flex;
-  justify-content: center;
-  background-color: #DCD3D3;
-  border: 2px solid blue;
-  margin: 0;
+#banner{
+  background-color:#EAEAEA;
 }
-.topbanner img{
-  border: 2px solid red;
-  margin: 1.5rem 2rem;
+..media-container {
+  overflow: hidden;
 }
-.bannertxt{
+
+.media-container img,
+.media-container video {
+  display: block;
+  width: 100%;
+}
+
+/* Top banner img and content*/
+
+.flex-content {
   display: flex;
-  border: 2px solid cyan;
+  padding: 0 1.5rem;
+}
+
+.flex-content .main-content {
+  width: 60%;
+  padding: 2rem 1.5rem 2rem 0;
+}
+
+.flex-content .bannertxt{
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  padding: 2rem 0;
   flex-direction: column;
   justify-content: center;
   margin: 0;
+  color:#3C3737;
+}
+.bannertxt h3 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.bannertxt p{
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.bannertxt a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
 
+}
+.button{
+  display: flex;
+  background-color:#3C3737;
+  width:100%;
+  padding: 1rem 0;
+  justify-content: center;
 }
